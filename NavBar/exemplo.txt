@@ -1,0 +1,34 @@
+<header>
+        <nav>
+            <a class="logo" href="/">God advogados</a>
+            <ul class="nav-list"> 
+                <li><a href="index.html">home</a></li>
+                <li><a href="entraremcontato.html">entrar em contato</a></li>
+                <li><a href="sobre.html">sobre</a></li>
+                <li><a href="log in.html">login</a></li>
+            </ul>
+        </nav>
+    </header>
+                                                     /*css*/
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a :hover{
+    opacity: 0.7;
+}
+.logo{
+    margin: 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(9, 122, 122);
+    height: 15vh;
+}

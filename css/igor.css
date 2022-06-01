@@ -1,0 +1,154 @@
+@charset "utf-8";
+/*login*/
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: dimgray;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 30px;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:#282828;
+     background-attachment: fixed;
+} 
+.login{
+    text-align: center;
+    background-color: dimgray;
+    width: 450px;
+    margin: 100px 425px 20px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+}
+input{
+    border-radius: 20px;
+    padding: 15px;
+    font-size:20px ;
+}
+button{
+    background-color:white ;
+    border-radius: 20px;
+    padding: 15px;
+    width: 250px;
+    color: black;
+    font-size: 20px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgba(105, 105, 105, 0.548);
+    cursor:pointer;
+}
+.box{
+    background-color: dimgray;
+    margin: 100px 425px 20px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px black;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+fieldset{
+    border: 3px solid white;
+}
+legend{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    color: dimgray;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 90%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput{
+    top: 20px;
+    font-size: 12px;
+}
+#submit{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    cursor:pointer;    
+}
+#submit :hover{
+    color: rgba(105, 105, 105, 0.548);
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a :hover{
+    opacity: 0.7;
+}
+.logo{
+    margin: 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 15vh;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 40px;
+}
+#enviar{
+    margin: 50px 280px;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.us-bott{
+    background-color: dimgray;
+    color: white;
+    position: relative;
+    
+}
+.ad-bott{
+    background-color:dimgray;
+    color: white;
+    margin: 50px 275px; 
+    position: relative;  
+    }
+
+
