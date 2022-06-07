@@ -19,8 +19,9 @@ body{
 .login{
     text-align: center;
     background-color: dimgray;
-    width: 450px;
-    margin: 100px 425px 20px;
+    min-width: none;
+    max-width: 450px;
+    margin: 30px auto 30px auto;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 5px 5px 5px black;
@@ -46,7 +47,8 @@ button:hover{
 }
 .box{
     background-color: dimgray;
-    margin: 100px 425px 20px;
+    max-width: 400px;
+    margin:auto;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 5px 5px 15px black;
@@ -138,17 +140,5 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-.us-bott{
-    background-color: dimgray;
-    color: white;
-    position: relative;
-    
-}
-.ad-bott{
-    background-color:dimgray;
-    color: white;
-    margin: 50px 275px; 
-    position: relative;  
-    }
 
 
