@@ -65,6 +65,7 @@ legend{
     text-align: center;
     background-color: white;
     color: dimgray;
+    margin: auto;
 }
 .inputBox{
     position: relative;
@@ -96,19 +97,21 @@ legend{
 #submit :hover{
     color: rgba(105, 105, 105, 0.548);
 }
-a{
+a{  
+    font-size: 2vw;
     color: white;
     text-decoration: none;
     transition: 0.3s;
 }
-a :hover{
+a:hover{
     opacity: 0.7;
+    text-decoration: underline;
 }
 .logo{
-    margin: 50px;
-    font-size: 24px;
+    margin: auto;
+    font-size: 3vw;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 nav{
     display: flex;
@@ -123,7 +126,7 @@ nav{
 }
 .nav-list li{
     letter-spacing: 3px;
-    margin-left: 32px;
+    margin-left: 15px;
 }
 .titulo{
     color: white;
@@ -131,7 +134,7 @@ nav{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 20px;
     letter-spacing: 4px;
-    margin: 40px;
+    margin: 20px auto ;
 }
 #enviar{
     margin: 50px 280px;
