@@ -125,7 +125,7 @@ nav{
     display: flex;
 }
 .nav-list li{
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     margin-left: 15px;
 }
 .titulo{
@@ -142,7 +142,10 @@ nav{
 main{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    min-width: 10px;
+    max-width: 600px;
+}
+#arquivos{
+    font-size: 2vw;
 }
 
 
