@@ -60,12 +60,13 @@ fieldset{
 }
 legend{
     border: 1px solid white;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     text-align: center;
     background-color: white;
     color: dimgray;
     margin: auto;
+    max-width: 600px;
 }
 .inputBox{
     position: relative;
@@ -119,6 +120,7 @@ nav{
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     height: 15vh;
+    max-width:600 ;
 }
 .nav-list{
     list-style: none;
