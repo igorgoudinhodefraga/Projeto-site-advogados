@@ -56,7 +56,7 @@ button:hover{
     text-shadow: 1px 1px 1px black;
 }
 fieldset{
-    border: 3px solid white;
+    border: 2px solid white;
 }
 legend{
     border: 1px solid white;
@@ -66,7 +66,6 @@ legend{
     background-color: white;
     color: dimgray;
     margin: auto;
-    max-width: 600px;
 }
 .inputBox{
     position: relative;
@@ -109,7 +108,6 @@ a:hover{
     text-decoration: underline;
 }
 .logo{
-    margin: auto;
     font-size: 3vw;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -119,7 +117,7 @@ nav{
     justify-items: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    height: 15vh;
+    height: 10vw;
     max-width:600 ;
 }
 .nav-list{
